@@ -3,6 +3,8 @@
  using System.Threading.Tasks;
  using Microsoft.Azure.Devices.Client;
  using Newtonsoft.Json;
+using System;
+using System.Globalization;
  namespace AvaraIOT
  {
      class Program
@@ -35,10 +37,11 @@
      while (true)
      {
          // read data from the sensor
+         var date = DateTime.Now;
          var currentTemperature = sensor.ReadTemperature();
          var currentHumidity = sensor.ReadHumidity();
 
-         var messageString = CreateMessageString(currentTemperature, currentHumidity);
+         var messageString = CreateMessageString(currentTemperature, currentHumidity, date);
 
          // create a byte array from the message string using ASCII encoding
          var message = new Message(Encoding.ASCII.GetBytes(messageString));
@@ -55,13 +58,16 @@
      }
  }
          // INSERT CreateMessageString method below here
-          private static string CreateMessageString(double temperature, double humidity)
+          private static string CreateMessageString(double temperature, double humidity, DateTime date)
  {
      // Create an anonymous object that matches the data structure we wish to send
      var telemetryDataPoint = new
      {
          temperature = temperature,
-         humidity = humidity
+         humidity = humidity,
+         date = date
+
+
      };
 
      // Create a JSON string from the anonymous object
@@ -81,6 +87,7 @@
      // Initial telemetry values
      double minTemperature = 20;
      double minHumidity = 60;
+     DateTime date = DateTime.Now;
      Random rand = new Random();
 
      internal EnvironmentSensor()
@@ -96,6 +103,9 @@
      internal double ReadHumidity()
      {
          return minHumidity + rand.NextDouble() * 20;
+     }
+     internal DateTime ReadDate() {
+        return date;
      }
  }
  }

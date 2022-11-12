@@ -44,4 +44,4 @@ Execute the binary:
 
 
 Check Server Responsiveness by using the Azure cloud shell (watch the data flow into the server):
-- az iot hub monitor-events --hub-name AvaraIOTHub --device-id AvaraDevice1
+- az iot hub monitor-events --hub-name PolymerIOT --device-id PolymerDeviceX

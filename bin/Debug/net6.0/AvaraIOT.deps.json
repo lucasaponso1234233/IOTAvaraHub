@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AvaraIOT/1.0.0": {
         "dependencies": {
-          "Microsoft.Azure.Devices.Client": "1.40.0",
+          "Microsoft.Azure.Devices.Client": "1.41.2",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -93,7 +93,7 @@
           }
         }
       },
-      "Microsoft.Azure.Amqp/2.5.8": {
+      "Microsoft.Azure.Amqp/2.5.12": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Azure.Amqp.dll": {
             "assemblyVersion": "2.4.0.0",
@@ -101,13 +101,13 @@
           }
         }
       },
-      "Microsoft.Azure.Devices.Client/1.40.0": {
+      "Microsoft.Azure.Devices.Client/1.41.2": {
         "dependencies": {
           "DotNetty.Codecs.Mqtt": "0.7.0",
           "DotNetty.Common": "0.7.1",
           "DotNetty.Handlers": "0.7.0",
-          "Microsoft.Azure.Amqp": "2.5.8",
-          "Microsoft.Azure.Devices.Shared": "1.30.1",
+          "Microsoft.Azure.Amqp": "2.5.12",
+          "Microsoft.Azure.Devices.Shared": "1.30.2",
           "Microsoft.Win32.Registry": "4.5.0",
           "Newtonsoft.Json": "13.0.1",
           "System.Configuration.ConfigurationManager": "4.4.1",
@@ -115,20 +115,20 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.Azure.Devices.Client.dll": {
-            "assemblyVersion": "1.40.0.0",
-            "fileVersion": "1.40.0.0"
+            "assemblyVersion": "1.41.2.0",
+            "fileVersion": "1.41.2.0"
           }
         }
       },
-      "Microsoft.Azure.Devices.Shared/1.30.1": {
+      "Microsoft.Azure.Devices.Shared/1.30.2": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net5.0/Microsoft.Azure.Devices.Shared.dll": {
-            "assemblyVersion": "1.30.1.0",
-            "fileVersion": "1.30.1.0"
+            "assemblyVersion": "1.30.2.0",
+            "fileVersion": "1.30.2.0"
           }
         }
       },
@@ -976,26 +976,26 @@
       "path": "dotnetty.transport/0.7.0",
       "hashPath": "dotnetty.transport.0.7.0.nupkg.sha512"
     },
-    "Microsoft.Azure.Amqp/2.5.8": {
+    "Microsoft.Azure.Amqp/2.5.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OvP/JpDKO3JciA4skAqSPQ2P3FJtgOeM4fkSuGJ6zPvtC9jcGAshmFfW49ym3H4SsY752aQdQNq9Pf5Ap0BIMg==",
-      "path": "microsoft.azure.amqp/2.5.8",
-      "hashPath": "microsoft.azure.amqp.2.5.8.nupkg.sha512"
+      "sha512": "sha512-0SlEl+TSQdpjXWf9/37dXWAa0zk6R1EJKmGtGZeKUAH7WEQpJOWMxJ9I43igcBCnTkFwa28CdPnpSCjFZVQlkw==",
+      "path": "microsoft.azure.amqp/2.5.12",
+      "hashPath": "microsoft.azure.amqp.2.5.12.nupkg.sha512"
     },
-    "Microsoft.Azure.Devices.Client/1.40.0": {
+    "Microsoft.Azure.Devices.Client/1.41.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qJk7tU//VTa8zXfxb+OAvW7OU3B9jdWjiFKukp1UX+2/WsHyZqXLmQxzpn0JYYvlu433kd2F8IC8OppdSOvuBg==",
-      "path": "microsoft.azure.devices.client/1.40.0",
-      "hashPath": "microsoft.azure.devices.client.1.40.0.nupkg.sha512"
+      "sha512": "sha512-HqAo8IFLUmwLcdfsQLK/wNYgogk4RmBEe6GYQFgriugsHsI5xWCboOabZ2AWg5u/HiXKSOokuNN5kBMK4pyBkw==",
+      "path": "microsoft.azure.devices.client/1.41.2",
+      "hashPath": "microsoft.azure.devices.client.1.41.2.nupkg.sha512"
     },
-    "Microsoft.Azure.Devices.Shared/1.30.1": {
+    "Microsoft.Azure.Devices.Shared/1.30.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-au1oX87VDv+zqoB/j+X/G6cKVVoKadVegDm+kGIirwvZtNWea0XSR2w5tYNypUsfs3XiSANgdfVyQssufKc6JA==",
-      "path": "microsoft.azure.devices.shared/1.30.1",
-      "hashPath": "microsoft.azure.devices.shared.1.30.1.nupkg.sha512"
+      "sha512": "sha512-SQdJWTyU0P1ILHtf2YOqF34NuJILxcT3fsGxVN3dKRqXUu00OByfY/PveGBFdd4XfADtPgSxzp6Tq4QhzRzg7Q==",
+      "path": "microsoft.azure.devices.shared/1.30.2",
+      "hashPath": "microsoft.azure.devices.shared.1.30.2.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",

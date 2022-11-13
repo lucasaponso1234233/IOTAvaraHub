@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucasa/IOTAvaraHub/AvaraIOT.csproj": {}
+    "/mnt/c/IOTAvaraHub/AvaraIOT.csproj": {}
   },
   "projects": {
-    "/home/lucasa/IOTAvaraHub/AvaraIOT.csproj": {
+    "/mnt/c/IOTAvaraHub/AvaraIOT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucasa/IOTAvaraHub/AvaraIOT.csproj",
+        "projectUniqueName": "/mnt/c/IOTAvaraHub/AvaraIOT.csproj",
         "projectName": "AvaraIOT",
-        "projectPath": "/home/lucasa/IOTAvaraHub/AvaraIOT.csproj",
-        "packagesPath": "/home/lucasa/.nuget/packages/",
-        "outputPath": "/home/lucasa/IOTAvaraHub/obj/",
+        "projectPath": "/mnt/c/IOTAvaraHub/AvaraIOT.csproj",
+        "packagesPath": "/home/lucasaponso/.nuget/packages/",
+        "outputPath": "/mnt/c/IOTAvaraHub/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lucasa/.nuget/NuGet/NuGet.Config"
+          "/home/lucasaponso/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.Azure.Devices.Client": {
               "target": "Package",
-              "version": "[1.40.0, )"
+              "version": "[1.41.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -53,22 +53,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

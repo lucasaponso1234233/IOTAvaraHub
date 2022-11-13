@@ -2,34 +2,19 @@ To Clone the repo:
 git clone https://github.com/lucasaponso/IOTAvaraHub.git
 
 
-Install dotnet:
+Execute dotnet install script:
 
-//downloading deb file from microsoft
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-
-//installing deb file
-sudo dpkg -i packages-microsoft-prod.deb
-
-//removing package after install
-rm packages-microsoft-prod.deb
-
-//installing dotnet-sdk
-sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0
-
-//install aspnetcore runtime
-sudo apt-get update && sudo apt-get install -y aspnetcore-runtime-6.0
-    
-//install dotnet runtime
-sudo apt-get install -y dotnet-runtime-6.0
-
-//adds the azure package to dotnet
-dotnet add package Microsoft.Azure.Devices.Client
+./dotnet-install.sh
 
 
 
-Compile & Execute Program:
 
-dotnet run ##(client device)
+Compile Program:
+
+dotnet run
+
+View Data:
+
 az iot hub monitor-events --hub-name PolymerIOT --device-id PolymerDeviceX ##(server device)
 
 

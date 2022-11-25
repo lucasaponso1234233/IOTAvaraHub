@@ -21,7 +21,7 @@ using System.Globalization;
          // INSERT Main method below here
           private static void Main(string[] args)
  {
-     Console.WriteLine("IoT Hub C# Simulated Avara Device. Ctrl-C to exit.\n");
+     Console.WriteLine("IoT Hub C# Simulated Polymer Device. Ctrl-C to exit.\n");
 
      // Connect to the IoT hub using the MQTT protocol
      deviceClient = DeviceClient.CreateFromConnectionString(connectionString, TransportType.Mqtt);

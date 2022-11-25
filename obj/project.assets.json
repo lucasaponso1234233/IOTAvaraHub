@@ -5630,19 +5630,19 @@
     ]
   },
   "packageFolders": {
-    "/home/lucasaponso/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/IOTAvaraHub/AvaraIOT.csproj",
+      "projectUniqueName": "/root/IOTAvaraHub/AvaraIOT.csproj",
       "projectName": "AvaraIOT",
-      "projectPath": "/mnt/c/IOTAvaraHub/AvaraIOT.csproj",
-      "packagesPath": "/home/lucasaponso/.nuget/packages/",
-      "outputPath": "/mnt/c/IOTAvaraHub/obj/",
+      "projectPath": "/root/IOTAvaraHub/AvaraIOT.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/IOTAvaraHub/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lucasaponso/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

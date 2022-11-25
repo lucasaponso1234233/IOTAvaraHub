@@ -1,3 +1,5 @@
+Can only be run on an ubuntu system atm.
+
 To Clone the repo:
 git clone https://github.com/lucasaponso/IOTAvaraHub.git
 
